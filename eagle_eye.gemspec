@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["steven.clontz@gmail.com"]
   spec.summary       = %q{Module for organizing reports and report data.}
   # spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/StevenClontz/eagle_eye"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

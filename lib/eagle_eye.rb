@@ -1,5 +1,8 @@
 require "eagle_eye/version"
+require "eagle_eye/item"
 
 module EagleEye
-  # Your code goes here...
+  def self.hi
+    puts "Hello world!"
+  end
 end
