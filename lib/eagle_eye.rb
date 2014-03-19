@@ -1,8 +1,3 @@
 require "eagle_eye/version"
-require "eagle_eye/item"
-
-module EagleEye
-  def self.hi
-    puts "Hello world!"
-  end
-end
+require "eagle_eye/document"
+require "eagle_eye/figures"

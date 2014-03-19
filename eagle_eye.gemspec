@@ -9,7 +9,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Steven Clontz"]
   spec.email         = ["steven.clontz@gmail.com"]
   spec.summary       = %q{Module for organizing reports and report data.}
-  # spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.description   = <<-DESC 
+A module for organizing and representing written reports.
+Documents contain content (in Markdown) and Figures. 
+Figures include Images, Tables, or any custom figure type that
+you'd like to roll.
+  DESC
   spec.homepage      = "https://github.com/StevenClontz/eagle_eye"
   spec.license       = "MIT"
 
