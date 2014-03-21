@@ -7,12 +7,12 @@ module EagleEye
   end
   
   module Figures
-    class Image < EagleEye::Figure
+    class Image < Figure
       def to_s
         'image!'
       end
     end
-    class Table < EagleEye::Figure
+    class Table < Figure
       def to_s
         'table!'
       end
