@@ -4,8 +4,8 @@ describe Document do
   
   it 'stores figures' do
     f = Figure.new
-    d = Document.new('hey', 'hi', [f])
-    d.figures[0].should == f
+    d = Document.new('hey', 'hi', {ex: f})
+    d.figures[:ex].should == f
   end
   
   describe '#to_s' do
